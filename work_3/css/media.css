@@ -1,0 +1,602 @@
+	/* media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 1200px) { 
+	.container {
+		width: 1170px;
+	}
+}
+
+	/* media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+
+	.navigate__menu {
+		justify-content: space-between;
+	}
+	
+	.head__contact {
+		margin-top: 15px;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.head__contact-tel {
+		font-size: 20px;
+		margin-right: 20px;
+	}
+
+	.head__btn {
+		text-align: right;
+	}
+	
+	.about__img img {
+		margin-top: -200px;
+		width: 100%;
+	}
+
+	.about__p-sandwichbar {
+		margin-top: 70px;
+	}
+	
+	.about__p-juice, .about__p-povar {
+		padding: 15px 55px 15px 0px;
+		text-align: justify;
+	}
+
+	.advantages__item {
+		justify-content: space-around;
+} 
+
+	.contact__batton {
+		margin: 20px 15px 0 15px;
+}
+
+	.f__navigate__menu {
+		margin-bottom: 20px;
+	}
+}
+	
+	/* media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+	
+	.navigate__menu {
+		justify-content: space-between;
+	}
+
+	.head__logo {
+		width: 700px;
+	}
+
+	.head__logo p {
+		width: 690px;
+	}
+	
+	.head__contact {
+		margin-top: 15px;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.head__contact-tel {
+		font-size: 20px;
+		margin-right: 20px;
+	}
+
+	.head__btn {
+		text-align: right;
+	}
+	
+	.about__img {
+		text-align: center;
+	}
+
+	.about__text {
+		text-align: justify;
+	}
+	
+	.about__p-juice, .about__p-povar {
+		padding: 15px 55px 15px 0px;
+		text-align: justify;
+	}
+
+	.about__p-juice {
+		margin: 33px 0;
+	}
+	
+	.advantages__item {
+		justify-content: center;	
+	}
+
+	.range__navigate {
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+	}
+
+	.contact__allinfo {
+		margin-top: 30px;
+	} 
+}
+	
+	/* media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.container	{
+ 		width: 560px;
+	}
+
+	.navigate__menu {
+		justify-content: space-between;
+	}
+
+	.head__logo {
+		width: 100%;
+	}
+
+	.head__logo p {
+		width: 490px;
+	}
+	
+	.head__contact {
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.head__contact-tel {
+		font-size: 16px;
+		margin-right: 0px;
+	}
+
+	.head__btn {
+		text-align: right;
+	}
+
+	.head__btn a {
+		padding: 18px 12px;
+}
+
+	.head__btn a:hover {
+		padding: 17px 11px;
+	}
+
+	.navigate__menu {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		margin-top: 17px;
+		border: 2px solid #4e8347;
+		box-shadow: inset 0 1000px 0 0 rgba(22,22,22,0.6);
+	}
+
+	.navigate__menu a {
+		color: #fff;
+	}
+
+	.navigate__item a:active {
+		border-bottom: 0;
+	}
+
+	.navigate__item a:focus {
+		border-bottom: 0;
+	}
+
+
+	.about__img {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.about__text {
+		text-align: justify;
+	}
+	
+	.about__p-juice, .about__p-povar {
+		padding: 15px 55px 15px 0px;
+		text-align: justify;
+	}
+
+	.about__p-juice {
+		margin: 15px 0;
+	}
+	
+	.advantages__item {
+		justify-content: center;	
+	}
+
+	.partnership__text-1 span {
+		margin: 0 45px 0 70px;
+	}
+
+	.partnership__text-2 span {
+		margin: 0 45px 0 80px;
+	}
+
+	.partnership__text-3 span {
+		margin: 0 80px 0 45px;
+	}
+
+	.partnership__text-4 span {
+		margin: 0 70px 0 45px;
+	}
+
+	.partnership__text-3 span::before {
+		width: 40px; 
+	}
+
+	.partnership__text-4 span::before {
+		width: 40px; 
+	}
+
+	.partnership__text-1 span::after {
+		width: 40px; 
+	}
+
+	.partnership__text-2 span::after {
+		width: 40px; 
+	}
+
+	.range__navigate {
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+	}
+
+	.contact__allinfo {
+		margin-top: 30px;
+	}
+
+	.f__navigate__menu {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+}
+
+
+/*media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 523px) and (max-width: 575px) {
+	.container {
+		width: 90%;
+	}
+
+	.head__logo {
+		width: 100%;
+	}
+
+	.head__logo p {
+		width: 100%;
+	}
+	
+	.about__p-juice, .about__p-povar {
+		padding: 15px 55px 15px 0px;
+		text-align: justify;
+	}
+
+	.about__p-juice {
+		margin: 15px 0;
+	}
+
+	.about__img {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.advantages__item {
+		justify-content: center;	
+	}
+
+	.range__navigate {
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+	}
+
+	.partnership__text-1 span {
+		margin: 0 45px 0 70px;
+	}
+
+	.partnership__text-2 span {
+		margin: 0 45px 0 80px;
+	}
+
+	.partnership__text-3 span {
+		margin: 0 80px 0 45px;
+	}
+
+	.partnership__text-4 span {
+		margin: 0 70px 0 45px;
+	}
+
+	.partnership__text-3 span::before {
+		width: 40px; 
+	}
+
+	.partnership__text-4 span::before {
+		width: 40px; 
+	}
+
+	.partnership__text-1 span::after {
+		width: 40px; 
+	}
+
+	.partnership__text-2 span::after {
+		width: 40px; 
+	}
+	
+	.navigate__bars {
+		display: flex;
+		justify-content: flex-start;
+	}
+	
+	.navigate__menu {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		margin-top: 17px;
+		border: 2px solid #4e8347;
+		box-shadow: inset 0 1000px 0 0 rgba(22,22,22,0.6);
+	}
+
+	.navigate__menu a {
+		color: #fff;
+	}
+
+	.navigate__item a:active {
+		border-bottom: 0;
+	}
+
+	.navigate__item a:focus {
+		border-bottom: 0;
+	}
+
+	.contact__allinfo {
+		margin-top: 30px;
+	}
+
+	.f__navigate__menu {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+}
+
+@media only screen and (max-width: 522px) {
+	.container {
+		width: 320px;
+	}
+	
+		.navigate__bars {
+		display: flex;
+		justify-content: flex-start;
+	}
+	
+	.navigate__menu {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		margin-top: 17px;
+		border: 2px solid #4e8347;
+		box-shadow: inset 0 1000px 0 0 rgba(22,22,22,0.6);
+	}
+
+	.navigate__menu a {
+		color: #fff;
+	}
+
+	.navigate__item a:active {
+		border-bottom: 0;
+	}
+
+	.navigate__item a:focus {
+		border-bottom: 0;
+	}
+
+	.range__navigate {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.f__navigate__menu {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+	.head__logo {
+		width: 100%;
+	}
+
+	.head__logo img {
+		width: 100%;
+	}
+
+	.head__logo p {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.head__btn a {
+		display: block;
+		padding: 5px 5px;
+	}
+
+	.head__btn a:hover {
+		padding: 4px 4px;
+	}
+
+	.head__contact {
+		margin-top: 20px;
+		width: 160px;
+		text-align: left;
+	}
+
+	.head__contact-tel {
+		font-size: 14px;
+		padding: 0;
+	}
+
+	.head__contact-social {
+		text-align: left;
+	}
+
+	.head__contact-social a {
+		font-size: 20px;
+		margin-left: 9px;
+	}
+	
+	.about__p-juice, .about__p-povar {
+		padding: 15px 55px 15px 0px;
+		text-align: justify;
+	}
+
+	.about__img {
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+	}
+	
+	.about__img img {
+		width: 100%;
+	}
+
+	.about__p {
+		font-size: 13px;
+	}
+
+	.advantages__item {
+		justify-content: center;	
+	}
+
+	.range__navigate {
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+	}
+
+	.partnership__text-1 span {
+		margin: 0 25px 0 0px;
+	}
+
+	.partnership__text-2 span {
+		margin: 0 25px 0 0px;
+	}
+
+	.partnership__text-3 span {
+		margin: 0 0px 0 25px;
+	}
+
+	.partnership__text-4 span {
+		margin: 0 0px 0 25px;
+	}
+
+	.partnership__text-3 span::before {
+		width: 10px; 
+	}
+
+	.partnership__text-4 span::before {
+		width: 10px; 
+	}
+
+	.partnership__text-1 span::after {
+		width: 10px; 
+	}
+
+	.partnership__text-2 span::after {
+		width: 10px; 
+	}
+
+	.partnership__way p {
+		margin: 0;
+		padding: 0;
+		display: block;
+		font-size: 12px;
+	}
+
+	.partnership__way-1 {
+		background: none;
+	}
+
+	.partnership__way-2 {
+		background: none;
+	}
+
+	.partnership__way-3 {
+		background: none;
+	}
+
+	.partnership__way-4 {
+		background: none;
+	}
+
+	.retail {
+		width: 240px;
+		margin: 0 auto;
+		left: 2px;
+		bottom: 2px;
+	}
+
+	.card-text {
+		margin: 0 auto;
+		left: 0px;
+		width: 250px;
+	}
+
+	.retail__title {
+		width: 100%;
+	}
+
+	.contact form {
+		margin: 0 0 10px 0;
+	}
+	
+	.contact__batton {
+		width: 100%;
+		left: 0;
+		margin: 0;
+	}
+
+	.form h3 {
+		width: 100%;
+	}
+
+	.contact__allinfo {
+		width: 100%;
+		margin: 0;
+	}
+
+	.contact__allinfo p {
+		font-size: 14px;
+	}
+
+	.contact__social a {
+		font-size: 25px;
+	}
+	
+	.f__navigate__menu {
+		flex-direction: column;
+	}
+
+	.f__navigate__menu a {
+		font-size: 18px;
+	}
+
+	#popup {
+		left: 50%;
+		position: fixed;
+		top: 50%;
+		z-index: 4000;
+		width: 320px;
+		height: auto;
+		padding:10px 0px 10px 0px;
+		outline: none !important;
+	}
+	.navigate__bars {
+		font-size: 25px;
+	}
+
+}

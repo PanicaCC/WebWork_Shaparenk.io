@@ -1,0 +1,876 @@
+
+body {
+	font-family: 'Franklin Gothic Book', sans-serif;
+	color: #000;
+	background-color: #f9f9f9;
+}
+
+ul, li, p {
+	display: block;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Franklin Gothic', sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+div, section, footer, button {
+	box-sizing: border-box;
+}
+
+.bold {
+	font-weight: 700;
+ }
+
+.upper {
+	text-transform: uppercase;
+}
+
+.batton {
+	border: 0;
+	border-radius: 2px;
+	background-color: #000;
+	padding: 13px 44px;
+}
+
+/* --- index.html --- */
+/* HEADER */
+.head {
+	padding-bottom: 20px;
+}
+
+.head a {
+	color: #000;
+}
+
+.head__city {
+	position: relative;
+	margin-left: 3px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.head__city-chel {
+	position: absolute;
+	left: 28px;
+	font-size: 18px;
+}
+
+.head__mail {
+	position: relative;
+	font-size: 20px;
+}
+
+.search {
+  margin-top: 12px;
+  width: 293px;
+  height: 38px;
+  position: relative;
+  background-color: #e5e5e5;
+  border-radius: 1px;
+}
+
+.search__txt {
+  border: none;
+  outline: none; 
+  -webkit-appearance: none; 
+  vertical-align: middle;
+  background: none;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.search__icon {
+ 	position: absolute;
+ 	right: 10px;
+ 	top: 5px;
+ 	color: #eeeeef;
+}
+
+.search__icon a {
+	color: #9c0001;
+}
+
+.search input::-webkit-input-placeholder  {color:#b6b6b6;}
+.search input::-moz-placeholder          {color:#b6b6b6;} /* Firefox 19+ */
+.search input:-moz-placeholder           {color:#b6b6b6;} /* Firefox 18- */
+.search input:-ms-input-placeholder      {color:#b6b6b6;}
+
+.head__mail-post {
+	position: absolute;
+	font-size: 18px;
+	left: 30px;
+}
+
+.head__phone {
+	text-align: right;
+}
+
+.head__phone a {
+	padding:  13px 50px;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.head__phone a:hover {
+	background-color: #9c0001; 
+	font-size: 18px;
+	text-decoration: none;
+	color: #000;
+}
+
+.head__phone a:focus {
+	color: #fff;
+}
+
+.head__phone-number {
+	background: url(../img/telephone.png) no-repeat 115px 7px;
+	margin-top: 15px;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	font-size: 24px;
+}
+
+.head__phone-txt {
+	font-family: 'Franklin Gothic Book';
+	margin-bottom: 18px;
+	font-size: 18px;
+}
+
+.header__menu {
+	background-color: #000;
+}
+
+
+.navigate__menu a {
+	padding: 20px 9px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navigate__menu a:hover {
+	background-color: #9c0001;
+}
+
+
+.background__slider {
+	background: url(../img/header-img.jpg) no-repeat center -19px;
+}
+
+.slick-slider {
+	width: 85%;
+}
+
+.slick-slider__stock-txt {
+	padding: 53px 60px 131px;
+	font-family: 'Franklin Gothic';
+	font-size: 43px;
+}
+
+.slick-slider__stock {
+	border-radius: 7px;
+	text-align: center;
+	margin: 133px 0 145px 0;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+}
+
+/* Слайдер */
+.slick-next:hover, .slick-prev:hover {
+	color: #9c0001;
+}
+
+.slick-next, .slick-prev {
+	position: absolute;
+	border: 0;
+	background: #000;
+	color: #fff;
+	font-size: 26px;
+	font-family: 'Franklin Gothic Book';
+	top: 50%;
+	outline: none !important;
+	z-index: 20;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.slick-next {
+	padding-right: 3px;
+	right: -8%;
+}
+
+.slick-prev {
+	padding-left: 3px;
+	left: -8%;
+}
+
+.background__slider a {
+	text-align: center;
+	width: 196px;
+	font-size: 18px;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+.background__slider a:hover {
+	background-color: #9c0001; 
+	font-size: 18px;
+	text-decoration: none;
+	color: #000;
+}
+
+.background__slider a:focus {
+	color: #fff;
+}
+
+.slider__batton {
+	position: absolute;
+	top: 56%;
+}
+
+/* BRAND */
+.brand {
+	text-align: center;
+	padding-bottom: 68px;
+}
+
+.brand a {
+	text-decoration: none;
+}
+
+.brand img:hover {
+	box-shadow: 5px 10px 10px 0 rgba(156,0,1,0.7);
+}
+
+.brand__img {
+	margin: 12px;
+	border: 0;
+	border-radius: 50%;
+	width: 143px;
+	height: 143px;
+	transition: all 0.5s ease;
+}
+
+.brand__item {
+	display: inline-block;
+}
+
+.brand__title {
+	margin: 95px 0 50px;
+}
+
+/* ADVANTAGES */
+
+.advantages {
+	background-color: #000;
+	text-align: center;
+	padding-bottom: 36px;
+}
+
+.advantages__title {
+	padding-bottom: 36px;
+	margin-top: 76px;
+	color: #990100;
+}
+
+.advantages__item {
+	display: inline-block;
+	margin: 10px 40px;
+	width: 255px;
+	height: auto;
+}
+
+.advantages__item-screwdriver img {
+	padding-bottom: 22px;
+}
+
+.advantages__item-screwdriver {
+	position: relative;
+}
+
+.advantages__item-screwdriver h3::after {
+	position: absolute;
+	right: -43px;
+	bottom: 57px;
+	content: '';
+	border-right: 1px solid #990100;
+	height: 183px;
+}
+
+.advantages__item-screwdriver::after {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	content: '';
+	border-bottom: 1px solid #990100;
+	width: 183px;
+}
+
+.advantages__item-hand img {
+	padding-bottom: 40px;
+}
+
+.advantages__item-hand::after {
+	content: '';
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	border-bottom: 1px solid #990100;
+	width: 183px;
+}
+
+.advantages__item-hand {
+	position: relative;
+}
+
+.advantages__item-hand h3::after {
+	position: absolute;
+	right: -43px;
+	bottom: 57px;
+	content: '';
+	border-right: 1px solid #990100;
+	height: 183px;
+}
+
+.advantages__item-coin img {
+	padding-bottom: 29px;
+}
+
+.advantages__item-coin::after {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	content: '';
+	border-bottom: 1px solid #990100;
+	width: 183px;
+}
+
+.advantages__item-shield img {
+	padding-bottom: 22px;
+}
+
+.advantages__item-shield {
+	position: relative;
+}
+
+.advantages__item-shield h3::after {
+	position: absolute;
+	right: -43px;
+	bottom: 57px;
+	content: '';
+	border-right: 1px solid #990100;
+	height: 183px;
+}
+
+.advantages__item-speedometer img {
+	padding-bottom: 37px;
+}
+
+.advantages__item-speedometer {
+	position: relative;
+}
+
+.advantages__item-speedometer h3::after {
+	position: absolute;
+	right: -43px;
+	bottom: 57px;
+	content: '';
+	border-right: 1px solid #990100;
+	height: 183px;
+}
+
+.advantages__item-delivery img {
+	padding-bottom: 27px;
+}
+
+.advantages__item-title {
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #990100;
+	padding-bottom: 12px;
+}
+
+.advantages__txt {
+	font-size: 15px;
+	color: #aeaeae;
+	padding-bottom: 36px;
+}
+
+.advantages__our {
+	justify-content: center;
+}
+
+/*ABOUT*/
+.about {
+	padding: 80px 0;
+}
+
+.about__img {
+	margin-bottom: 5px;
+}
+
+.about__title {
+	line-height: 28px;
+	padding-bottom: 30px;
+}
+
+.about__txt {
+	font-size: 18px;
+	padding-bottom: 20px;
+	line-height: 1.4em;
+	letter-spacing: -0.02em;
+}
+
+.about__description {
+	margin-left: 25px;
+}
+
+.about__description a {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+
+.about__description a:hover {
+	background-color: #9c0001; 
+	color: #000;
+}
+
+/*WARRANTY*/
+.warranty {
+	padding: 78px 0;
+	background-color: #fff;
+}
+
+.warranty__title {
+	line-height: 28px;
+	padding-bottom: 30px;
+}
+
+.warranty__txt {
+	font-size: 18px;
+	padding-bottom: 20px;
+	line-height: 1.4em;
+	letter-spacing: -0.02em;
+}
+
+.warranty a {
+	position: absolute;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+
+.warranty a:hover {
+	background-color: #9c0001; 
+	color: #000;
+}
+
+.warranty__img {
+	margin-left: 25px;
+}
+
+/*COST-OF-REPAIRS*/
+.cor {
+	text-align: center;
+}
+
+.cor__title {
+	color: #fff;
+	margin: 73px 0 45px 0;
+}
+
+.cor__background-form {
+	background: url(../img/bg-cost-of-repairs.jpg) no-repeat center bottom;
+}
+
+.cor__item {
+	position: relative;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Franklin Gothic Demi'; 
+	width: 278px;
+	display: inline-block;
+}
+
+.cor__item-auto {
+	margin: 0 69px;
+}
+
+.cor__form-indicate {
+	text-align: left;
+}
+
+.cor__form-select {
+	background-color: #fff;
+	border: 0;
+	border-radius: 5px; 
+	width: 278px;
+	color: #4d4d4d;
+	padding: 10px 20px;
+}
+
+.form-fill {
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Franklin Gothic Demi'; 
+	width: 278px;
+	display: inline-block;
+}
+
+.form-fill input::-webkit-input-placeholder  {color:#4d4d4d;}
+.form-fill input::-moz-placeholder          {color:#4d4d4d;} /* Firefox 19+ */
+.form-fill input:-moz-placeholder           {color:#4d4d4d;} /* Firefox 18- */
+.form-fill input:-ms-input-placeholder      {color:#4d4d4d;}
+
+.cor__form select {
+	margin-bottom: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.cor__select-side {
+	position: absolute;
+	color: #4d4d4d;
+	right: 21px;
+	top: 32px;
+	pointer-events: none;
+}
+
+.form-fill__phone {
+	margin: 0 69px;
+}
+
+.form-fill input {
+	background-color: #fff;
+	border: 0;
+	border-radius: 5px; 
+	width: 278px;
+	padding: 10px 20px;
+	outline: none;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.cor__form-batton {
+	margin: 0 100px;
+	width: 197px;
+}
+
+.cor__form button {
+	margin: 56px 0 80px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+
+.cor__form button:hover {
+	background-color: #9c0001; 
+	color: #000;
+}
+
+/*PARTNERSHIP*/
+.partnership__title {
+	font-size: 30px;
+}
+
+.partnership__title span {
+	display: block;
+	font-size: 28px;
+	margin-bottom: 47px;
+}
+
+.partnership__background {
+	padding: 76px 0 76px 0;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+
+.partnership a {
+	background-color: #fff;
+	margin: 56px 0 80px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+
+.partnership a:hover {
+	background-color: #9c0001; 
+	color: #000;
+}
+
+/*CONTACT*/
+.contact__title {
+	margin: 77px 0 30px 0;
+}
+
+.contact__info {
+	font-size: 22px;
+}
+
+.contact__phone {
+	background: url(../img/telephone.png) no-repeat left 5px;
+	padding-left: 32px;
+}
+
+.contact__info a {
+	text-decoration: none;
+	color: #000;
+}
+
+.contact__mail {
+	padding-left: 5px;
+}
+
+.contact__address {
+	margin-left: 3px;
+}
+
+.contact__city {
+	padding-left: 7px;
+}
+
+.send__title {
+	margin: 50px 0 25px 0;
+	font-size: 30px;
+	color: #000;
+}
+
+.contact__form-input {
+	border: 1px solid #d6d6d6;
+	display: block;
+	width: 488px;
+	padding: 5px 18px;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+.contact__form input::-webkit-input-placeholder  {color:#a7a7a7;}
+.contact__form input::-moz-placeholder          {color:#a7a7a7;} /* Firefox 19+ */
+.contact__form input:-moz-placeholder           {color:#a7a7a7;} /* Firefox 18- */
+.contact__form input:-ms-input-placeholder      {color:#a7a7a7;}
+
+.contact__form textarea::-webkit-input-placeholder  {color:#a7a7a7;}
+.contact__form textarea::-moz-placeholder          {color:#a7a7a7;} /* Firefox 19+ */
+.contact__form textarea:-moz-placeholder           {color:#a7a7a7;} /* Firefox 18- */
+.contact__form textarea:-ms-input-placeholder      {color:#a7a7a7;}
+
+.contact__form-text {
+	background-color: #fff;
+	border: 1px solid #d6d6d6;
+	width: 488px;
+	color: #4d4d4d;
+	padding: 5px 18px;
+	outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  display: block;
+}
+
+.checkbox {
+	position: relative;
+	padding-left: 25px;
+}
+.checkbox input[type=checkbox] {
+	display: none;
+}
+.checkbox label:after {
+	content: '';
+	display: block;
+	height: 25px;
+	width: 25px;
+	outline: 1px solid #d6d6d6;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	background-color: #fff;
+}
+.checkbox input[type=checkbox]:checked + label:after {
+	outline: 1px solid #d6d6d6;
+	border: 2px solid #fff;
+	width: 25px;
+	height: 25px;
+	background-color: #000;
+}
+
+.checkbox label {
+	margin: 15px 15px;
+	color: #979797;
+}
+
+.checkbox label a {
+	text-decoration: none;
+	border-bottom: 1px solid #9c0001;
+	color: #9c0001;
+	padding-bottom: 2px;
+}
+
+.contact__form button {
+	width: 488px;
+	margin: 56px 0 80px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+
+.contact__form button:hover {
+	background-color: #9c0001; 
+	color: #000;
+}
+
+.contact__mechanic {
+	padding-top: 30px;
+}
+
+/*YA-MAP*/
+
+.ya-map {
+	text-align: center;
+}
+
+.ya-map iframe {
+width: 100%;
+}
+
+/*FOOTER*/
+.footer {
+	padding: 20px 0;
+}
+
+.f-contact {
+	font-size: 18px;
+}
+
+.f-contact__company {
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-family: 'Franklin Gothic Demi', sans-serif;
+	font-size: 18px;
+}
+
+.product-by {
+	text-align: right;
+}
+
+.f-mapsite {
+	text-align: left;
+}
+
+.f-mapsite__item {
+	padding-bottom: 8px;
+}
+
+.f-mapsite__item a {
+	text-transform: uppercase;
+	font-size: 16px; 
+	color: #000;
+	text-decoration: none;
+}
+
+.f-mapsite__item a:hover {
+	color: #9c0001;
+}
+
+.product-firm {
+	font-size: 16px; 
+	text-transform: uppercase;
+}
+
+/* --- page2.html --- */
+
+.bar__menu {
+	font-weight: 700;
+	background-color: rgba(156,0,1,0.1);
+	padding-top: 30px;
+}
+
+.bar__menu a {
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+}
+
+.bar__menu-item {
+	position: relative;
+	margin: 20px 5px;
+	padding: 10px 0px 10px 10px;
+	background-color: rgba(156,0,1,0.6);
+  transition: all 0.7s ease;
+}
+
+.bar__menu-item:hover {
+	background-color: rgba(156,0,1,0.9);
+	color: #000;
+}
+
+.bar__submenu {
+	margin-left: 0px;
+}
+
+.bar__submenu a {
+	font-size: 14px;
+	font-weight: 300;
+	color: #ddd
+}
+
+.bar__submenu li:hover {
+	background-color: rgba(0,0,1,0.2);;
+}
+
+.bar__submenu-side {
+	letter-spacing: 10px;
+}
+
+.header__menu-page2 button {
+	color: #000;
+	border: 1px solid #000;
+}
+
+/* --- other --- */
+.navigate__bars {
+	margin: 5px 5px 5px 0;
+	border: 2px solid #fff;
+	cursor: pointer;
+	background-color: inherit;
+	color: #9c0001;
+	text-align: center;
+	font-size: 20px;
+}
+
+.header__menu button {
+	outline: none;
+}

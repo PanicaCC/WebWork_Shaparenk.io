@@ -1,0 +1,273 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Arial', sans-serif;
+}
+
+/* -- other -- */
+ul, li {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	display: block;
+}
+
+section h2 {
+	font-weight: bold;
+	font-size: 49px;
+	text-transform: uppercase;
+}
+
+.centro {
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
+.between {
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+
+/* -- HEADER -- */
+
+.header {
+	height: 100vh;
+	width: auto;
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+}
+
+.wellcom h1 {
+	font-size: 75px;
+	color: #fff;
+	padding-top: 10px;
+}
+
+.wellcom h2 {
+	font-size: 40px;
+	color: #fff;
+}
+
+.firstmain__item {
+	display: block;
+}
+
+.firstmain__item a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	padding-left: 28px;
+}
+
+.firstmain__item a:hover {
+	color: #fed136;
+}
+
+.firstmain {
+	padding-top: 55px;
+}
+
+.header-logo img {
+	padding-top: 50px;
+}
+
+.wellcom {
+	text-align: center;
+	padding: 208px 0 158px 0; 
+}
+
+.well-button {
+	display: inline-block;
+	background-color: #fed136;
+	width: 240px;
+	height: 65px;
+	color: #484543;
+	font-size: 18px;
+	padding-top: 18px;
+	border-radius: 3px;
+	margin-top: 56px;
+}
+
+.well-button:hover {
+	background-color: initial;
+	border: 2px solid #fed136;
+	color: #fed136;
+	text-decoration: none;
+}
+
+/* -- SERVICES -- */
+.serv {
+	text-align: center;
+}
+
+.serv__title {
+	margin-top: 112px;
+}
+
+.serv p {
+	font-size: 16px;
+	color: #777777;
+	margin-top: 12px;
+}
+
+.serv__item {
+	padding-top: 70px;
+	text-align: center;
+	width: 270px;
+	margin: 0 auto;
+}
+
+.serv__item-title {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 18px 0 5px 0;
+}
+
+.serv__item-txt {
+	font-size: 14px;
+	color: #777777;
+	letter-spacing: -0.02em;
+	margin-bottom: 115px;
+}
+
+/* -- PORTFOLIO -- */
+.portfolio {
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+.portfolio__title {
+	margin-top: 115px;
+}
+
+.portfolio__txt {
+	margin-top: 12px;
+	font-size: 16px;
+	color: #777777;
+	padding-bottom: 50px;
+}
+
+.porfolio__work img {
+	width: 100%;
+}
+
+.porfolio__work {
+	padding-bottom: 120px;
+	cursor: pointer;
+	background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.porfolio__work:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/* -- ABOUT -- */
+
+.about {
+	text-align: center;
+	padding-top: 120px;
+}
+
+.about__event h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.about__event-title {
+	text-transform: uppercase;
+}
+
+.about__event-title span {
+	text-transform: none;
+	display: block;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.about__event-txt {
+	width: 270px;
+	font-size: 14px;
+	color: #777777;	
+}
+
+.txtAlignR {
+	text-align: right;
+}
+
+.txtAlignL {
+	text-align: left;
+}
+
+.about__allEvents-part {
+		-webkit-justify-content: center;
+	        justify-content: center;
+	    padding: 45px 0 45px;
+}
+
+.lefter {
+	margin-left: -267px;
+}
+
+.righter {
+	margin-right: -267px;
+}
+
+.about__allEvents {
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.about__imgEvent {
+	padding: 0 41px;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	    -ms-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+.about__imgEvent:hover {
+	-webkit-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
+}
+
+/* -- FOOTER -- */
+footer {
+	text-align: center;
+	padding: 55px 0 60px;
+	background-color: #F7F7F7;
+	font-size: 14px;
+	color: #555555;
+	line-height: 0.02em;
+	letter-spacing: -0.02em;
+}

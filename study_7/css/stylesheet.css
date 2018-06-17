@@ -1,0 +1,86 @@
+/* Шрифты --- генератор https://transfonter.org --- */
+
+    
+/*Правильно все подключено??? через <link rel="stylesheet" href="css/stylesheet.css"> */
+
+@font-face {
+    font-family: 'Natasha';
+    src: local('Natasha'),
+        url('../fonts/subset-Natasha.woff') format('woff'),
+        url('../fonts/subset-Natasha.ttf') format('truetype'),
+        url('../fonts/subset-Natasha.svg#Natasha') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 900';
+    src: local('Museo Sans Cyrl 900'), local('MuseoSansCyrl-900'),
+        url('../fonts/subset-MuseoSansCyrl-900.woff') format('woff'),
+        url('../fonts/subset-MuseoSansCyrl-900.ttf') format('truetype'),
+        url('../fonts/subset-MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 300';
+    src: local('Museo Sans Cyrl 300'), local('MuseoSansCyrl-300'),
+        url('../fonts/subset-MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/subset-MuseoSansCyrl-300.ttf') format('truetype'),
+        url('../fonts/subset-MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 100';
+    src: local('Museo Sans Cyrl 100'), local('MuseoSansCyrl-100'),
+        url('../fonts/subset-MuseoSansCyrl-100.woff') format('woff'),
+        url('../fonts/subset-MuseoSansCyrl-100.ttf') format('truetype'),
+        url('../fonts/subset-MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 900';
+    src: local('Museo Sans Cyrl 900 Italic'), local('MuseoSansCyrl-900Italic'),
+        url('../fonts/subset-MuseoSansCyrl-900Italic.woff') format('woff'),
+        url('../fonts/subset-MuseoSansCyrl-900Italic.ttf') format('truetype'),
+        url('../fonts/subset-MuseoSansCyrl-900Italic.svg#MuseoSansCyrl-900Italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 300';
+    src: local('Museo Sans Cyrl 300 Italic'), local('MuseoSansCyrl-300Italic'),
+        url('../fonts/subset-MuseoSansCyrl-300Italic.woff') format('woff'),
+        url('../fonts/subset-MuseoSansCyrl-300Italic.ttf') format('truetype'),
+        url('../fonts/subset-MuseoSansCyrl-300Italic.svg#MuseoSansCyrl-300Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 100';
+    src: local('Museo Sans Cyrl 100 Italic'), local('MuseoSansCyrl-100Italic'),
+        url('../fonts/subset-MuseoSansCyrl-100Italic.woff') format('woff'),
+        url('../fonts/subset-MuseoSansCyrl-100Italic.ttf') format('truetype'),
+        url('../fonts/subset-MuseoSansCyrl-100Italic.svg#MuseoSansCyrl-100Italic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stroke-Gap-Icons';
+    src: local('Stroke-Gap-Icons'),
+        url('../fonts/Stroke-Gap-Icons.woff') format('woff'),
+        url('../fonts/Stroke-Gap-Icons.ttf') format('truetype'),
+        url('../fonts/subset-Natasha.svg#Stroke-Gap-Icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Cryated by Vlad Shaparenko*/

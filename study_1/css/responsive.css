@@ -1,0 +1,72 @@
+
+
+@media screen and (max-width: 1024px) {
+
+	article {
+		width: 90%;
+	}
+	
+	.icon1, .icon2 {
+		display: none;
+	}
+
+	.one {
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 50px;
+	}
+
+	.cell {
+		display: block;
+		width: 70%;
+		margin: 0px auto 20px auto;
+	}
+
+	.explain {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.wheel {
+		margin: 0px;
+		margin-top: -220px;
+   		margin-left: -267px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.wheel img {
+		width: 90%;
+	}
+	.wheel {
+		margin: 0px;
+		margin-top: -160px;
+   		margin-left: -220px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+
+	.wheel img {
+		width: 90%;
+	}
+	.wheel {
+		margin: 0px;
+		margin-top: -160px;
+   		margin-left: -150px;
+	}
+}
+@media screen and (max-width: 360px) {
+
+	.wheel img {
+		width: 90%;
+	}
+	.wheel {
+		margin: 0px;
+		margin-top: -130px;
+   		margin-left: -130px;
+	}
+}

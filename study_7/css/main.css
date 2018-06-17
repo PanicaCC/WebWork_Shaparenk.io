@@ -1,0 +1,432 @@
+/* ----- specification ----- */
+
+body {
+	font-family: 'Museo Sans Cyrl 300', sans-serif;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.12em;
+}
+
+ul, li, p {
+	display: block;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Natasha;
+}
+
+div, section, footer {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Museo Sans Cyrl 300', sans-serif;
+	font-size: 13px;
+}
+
+h2 {
+	font-size: 37px;
+}
+
+ .d-flex {
+ 	display: flex;
+ }
+
+ .between {
+ 	justify-content: space-between;
+ }
+
+ .around {
+ 	justify-content: space-around;
+ }
+
+ .colum {
+ 	flex-direction: column;
+ }
+
+ .bold {
+    font-family: 'Museo Sans Cyrl 900', sans-serif;
+    font-weight: 900;
+ }
+
+ .lighter {
+    font-family: 'Museo Sans Cyrl 100', sans-serif;
+ }
+
+.upper {
+	text-transform: uppercase;
+}
+
+/* ----- Header ----- */
+
+.heads {
+	position: absolute;
+	top: 4%;
+	bottom: 10%;
+	width: 100%;
+	height: 23px;
+}
+
+.header {
+	background: url(../img/bg-first.jpg) no-repeat center bottom / cover;
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	box-shadow: inset 0 360px 170px 0 rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+
+.header .container {
+	position: relative;
+	height: 100vh;
+}
+
+.heads__mywork {
+	width: 40%;
+	padding-top: 2px;
+}
+
+.heads__mywork a {
+	font-family: 'Museo Sans Cyrl 900', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.heads__mywork a:hover {
+	color: #cfd5cf;
+}
+
+.heads__mywork a:focus {
+	color: #6e726d;
+}
+
+.heads__logo {
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+.heads__mail {
+	padding-top: 4px;
+}
+
+.heads__mail:hover {
+	border-bottom: 1px solid #6e726d;
+}
+
+.ilive-biz {
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	margin-left: -365px;
+	width: 730px;
+	text-align: center;
+}
+
+.ilive-biz__title-frontend {
+	font-size: 29px;
+}
+
+.ilive-biz__title {
+	font-size: 49px;
+}
+
+.goto {
+	position: absolute;
+	bottom: 12%;
+	left: 50%;
+	margin-left: -19px;
+}
+
+.goto__about {
+	border: 1px solid #dcdcd9;
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	border-radius: 50%;
+	text-align: center;
+	color: #dcdcd9;
+}
+
+.goto__about__sp {
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	padding-left: 2px;
+	line-height: 36px;
+}
+
+.goto__about:hover {
+	color: #838380;
+}
+
+.goto__about:focus {
+	border-color: #838380;
+}
+
+/* ----- About ----- */
+
+h4 {
+	color: #6d6f69;
+	font-size: 22px;
+}
+
+.about__title {
+	padding-top: 83px;
+}
+
+.about__bk {
+	padding-top: 73px;
+}
+
+.bg__title {
+	padding-bottom: 40px;
+}
+
+.bg__p {
+	padding: 0px 22px 33px 0;
+	font-size: 15px;
+	line-height: 27px;
+	width: 460px;
+	padding-bottom: 31px;
+}
+
+.merit__title {
+	padding-bottom: 62px;
+}
+
+.romb {
+	transform: rotate(45deg);
+	border: 2px solid #3e6534;
+	width: 71px;
+	height: 71px;
+	padding: 5px;
+	margin-left: 32px;
+}
+
+.romb2 {
+	display: block;
+	border: 1px solid #cddbc3;
+	width: 56px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+}
+
+.romb .merit__sp {
+	color: #3e6534;
+	font-size: 20px;
+	font-family: 'Museo Sans Cyrl 100', sans-serif;
+	display: block;
+	transform: rotate(315deg);
+}
+
+.merit__skills {
+	font-size: 12px;
+	width: 460px;
+	padding-bottom: 10px;
+}
+
+.merit__p {
+	padding-top: 40px;
+}
+
+.merit__project,
+.merit__review,
+.merit__exp {
+	width: 140px;
+	text-align: center;
+}
+
+.comm__title {
+	color: #888886;
+	margin: 64px 0 32px 0;
+}
+
+.bk-social__contact {
+	width: 205px;
+}
+
+.comm__socials {
+	font-size: 14px;
+	width: 220px;
+	margin-bottom: 20px;
+}
+
+.comm__socials a {
+	text-decoration: none;
+	margin-bottom: 17px;
+	color: #204d15;
+	border-bottom: 1px solid #becbbb;
+	padding-bottom: 2px;
+	letter-spacing: 0.12em;
+}
+
+.comm__socials a:hover {
+	color: #888886;
+}
+
+.comm__write-me {
+	padding-top: 6px;
+}
+
+.comm__write-me-sp {
+	padding: 23px 0 0 10px;
+	font-size: 14px;
+	font-style: italic;
+	color: #60615a;
+	letter-spacing: 0.02em;
+}
+
+.comm__write-me-i{
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #eef1ed;
+	color: #3e6534;
+	font-size: 25px;
+	padding-left: 3px;
+}
+
+/* ----- Skill ----- */
+
+.skill {
+	padding-bottom: 41px;
+}
+
+.skill__title {
+	padding: 65px 0 60px 0;
+}
+
+.skill__item {
+	margin-right: 12px;
+	width: 220px;
+}
+
+.circl {
+	position: relative;
+	border: 1px solid #b2b7b1;
+	width: 49px;
+	height: 49px;
+	margin-left: 9px;
+	border-radius: 50%;
+	padding: 5px 5px;
+}
+	.circl:before {
+	content: "";
+	display: block;
+	border: 2px solid #3e6534;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin-left: -14px;
+	margin-top: -13.5px;
+	text-align: center;
+}
+
+.circl__sp {
+	position: absolute;
+	line-height: 0px;
+	color: #3e6534;
+	right: 10px;
+	top: 24px;
+	font-size: 13px;
+	font-family: 'Museo Sans Cyrl 100', sans-serif;
+}
+
+.circl__p {
+	padding: 13px 0 0 32px;
+	font-size: 15px;
+	color: #3a3c34;
+}
+
+.skill__item:nth-child(3) span {
+	right: 7px;
+}
+
+.skill__item:last-child span {
+	right: 13px;
+}
+
+
+/* ----- Work ----- */
+
+.work {
+	padding-top: 41px;
+	padding-bottom: 32px;
+}
+
+.work__title {
+	padding-bottom: 59px;
+}
+
+.work__images {
+	position: relative;
+}
+
+.work__img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.work__specification {
+	padding-top: 120px;
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	top: 0px;
+	background: rgba(0,0,0,0.56);
+	opacity: 0;
+	transition: all 0.9s ease;
+}
+
+.work__p {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Museo Sans Cyrl 900', sans-serif;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+.work__look {
+	font-size: 13px;
+	border-bottom: 1px solid #828486;
+}
+
+.work__look:hover {
+	color: #828486;
+}
+
+.work__images:hover .work__specification {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+/* ----- Footer ----- */
+
+
+.footer {
+	padding: 90px 0;
+}
+.future__p {
+	font-size: 13px;
+	color: #6d6f69;
+}

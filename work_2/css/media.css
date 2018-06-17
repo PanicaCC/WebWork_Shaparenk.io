@@ -1,0 +1,866 @@
+	/* media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 1200px) { 
+	.container {
+		width: 1140px;
+	}
+}
+
+	/* media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+	
+	.search {
+    width: 200px;
+  }
+
+  .head__phone-number {
+		background: url(../img/telephone.png) no-repeat 58px 7px;
+	}
+
+	.background__slider {
+		background: url(../img/header-img.jpg) no-repeat center top / cover;
+	}
+
+	.navigate__menu a {
+		text-align: center;
+	}
+
+	.navigate__menu {
+		line-height: 30px;
+	}
+
+	.navigate__menu a:nth-child(6) {
+		line-height: initial;
+	}
+
+	.navigate__menu a:nth-child(9) {
+		line-height: initial;
+	}
+
+	.advantages__item-hand h3::after {
+		display: none;
+	}
+
+	.advantages__item-shield h3::after {
+		display: none;
+	}
+
+	.advantages__item-shield::after {
+		content: '';
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		border-bottom: 1px solid #990100;
+		width: 183px;
+}
+
+	.advantages__item-coin {
+		position: relative;
+	}
+
+	.advantages__item-coin h3::after {
+		position: absolute;
+		right: -43px;
+		bottom: 57px;
+		content: '';
+		border-right: 1px solid #990100;
+		height: 183px;
+} 	
+	.about img {
+		padding-bottom: 38px;
+	}
+
+	.warranty__img {
+		height: 390px;
+	}
+
+	.cor__form-select {
+		width: 240px;
+	}
+
+	.cor__item {
+		width: 240px;
+	}
+
+	.form-fill {
+		width: 240px;
+	}
+
+	.form-fill input {
+		width: 240px;
+	}
+
+	.contact img {
+		height: 100%;
+		position: relative;
+		z-index: 1;
+	}
+
+	.contact form {
+		position: relative;
+		z-index: 100;
+	}
+
+	.ya-map iframe {
+	}
+}
+
+	/* media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+
+	.search {
+    width: 200px;
+  }
+
+  .head__logo {
+  	width: 218px;
+  }
+
+  .head__phone-number {
+		background: url(../img/telephone.png) no-repeat 10px 4px;
+		font-size: 20px;
+	}
+
+	.head__phone-txt {
+		font-size: 15px;
+	}
+
+	.head__phone a {
+    padding: 13px 40px;
+  }
+	
+	.navigate__bars {
+		border-radius: 2px;
+		position: absolute;
+		top: 0;
+		left: 10;
+		overflow: hidden;
+		z-index: 101;
+	}
+
+	.background__slider {
+		z-index: 3;
+		height: 600px;
+	}
+
+	.slick-slider__stock-txt {
+		padding: 53px 30px 141px;
+		font-size: 30px;
+	}
+
+	.header__menu {
+		background-color: rgba(0,0,0,0.8);
+	}
+
+
+	.navigate__menu {
+		width: auto;
+		color: #fff;
+	}
+
+	.navigate__menu a:hover {
+		background-color: inherit;
+	}
+
+	.navigate__menu-item:hover {
+		background-color: #990100;
+	}
+
+	.navigate__menu-item {
+		padding: 5px 0px;
+		margin: 0 120px;
+	}
+
+	.navigate__menu a {
+		margin: 0;
+		padding: 0;
+	}
+
+	.advantages__item-shield h3::after {
+		display: none;
+	}
+
+	.advantages__item-hand h3::after {
+		display: none;
+	}
+
+	.advantages__item-shield::after {
+		content: '';
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		border-bottom: 1px solid #990100;
+		width: 183px;
+	}
+
+	.advantages__item-coin {
+		position: relative;
+	}
+
+	.advantages__item-coin h3::after {
+		position: absolute;
+		right: -43px;
+		bottom: 57px;
+		content: '';
+		border-right: 1px solid #990100;
+		height: 183px;
+	}
+
+	.about {
+		padding: 20px 0;
+	}
+	
+	.about img {
+		width: 100%;
+	}
+
+	.about__txt {
+		text-align: justify;
+	}
+
+	.about__description {
+		padding-top: 20px;
+		margin-left: 0;
+	}
+
+	.warranty {
+		padding: 20px 0 60px 0;
+	}
+
+	.warranty {
+		text-align: center;
+	}
+	
+	.warranty__title {
+		text-align: left;
+	}
+
+	.warranty__batton {
+		left: 15px;
+	}
+
+	.warranty__txt {
+		text-align: justify;
+	}
+
+	.warranty__batton {
+		position: relative;
+	}
+
+	.cor__background-form {
+		background: url(../img/bg-cost-of-repairs.jpg) no-repeat center top;
+		height: 512px;
+	}
+
+	.cor__form {
+		text-align: right;
+	}
+
+	.cor__title {
+		margin: 10px 0;
+		font-size: 30px;
+	}
+
+	.cor__form-select {
+		width: 377px;
+	}
+
+	.cor__item {
+		display: block;
+		width: 377px;
+	}
+
+	.form-fill {
+		display: block;
+		width: 377px;
+	}
+
+	.form-fill input {
+		width: 377px;
+	}
+
+	.cor__item-auto {
+    margin: 0;
+	}
+
+	.form-fill__phone {
+    margin: 0;
+	}
+
+	.cor__form select {
+		margin-bottom: 10px;
+	} 
+
+	.cor__form input {
+		margin-bottom: 10px;
+	}
+
+	.cor__form-batton {
+		position: absolute;
+		top: 40%;
+		right: 2%;
+	}
+
+	.f-contact img {
+		width: 100%;
+	}
+
+	.product-by {
+		width: 160px;
+		margin-left: -10px;
+	}
+}
+
+	/* media --- media --- media --- media --- media --- media --- media */
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+	.container	{
+ 		width: 560px;
+	}
+
+	.search__icon {
+		padding-top: 8px;
+	}
+	
+	.search__txt {
+		padding-top: 12px;
+	}
+
+	.search {
+		height: 48px;
+		margin-top: 10px;
+    width: 194px;
+  }
+
+  .head__phone-number {
+		background: url(../img/telephone.png) no-repeat 50px 7px;
+	}
+
+	.background__slider {
+		background: url(../img/header-img.jpg) no-repeat center -39px / cover;
+		z-index: 3;
+		margin: 0;
+		padding: 0;
+	}
+
+	.slick-slider__stock {
+		margin-top: 30px;
+	}
+	
+	.slick-slider {
+		height: 300px;
+	}
+
+	.slick-slider__stock-txt {
+	padding: 33px 30px 90px;
+	font-size: 22px;
+	}
+
+	.slick-next, .slick-prev {
+		top: 45%;
+		width: 23px;
+		height: 23px;
+		margin: 0;
+		font-size: 15px;
+  }
+
+	.navigate__bars {
+		border-radius: 2px;
+		position: absolute;
+		top: 0;
+		left: 10;
+		overflow: hidden;
+		z-index: 101;
+	}
+
+	.background__slider {
+		padding: 25px 0;
+		z-index: 3;
+	}
+
+	.header__menu {
+		background-color: rgba(0,0,0,0.8);
+	}
+
+
+	.navigate__menu {
+		width: auto;
+		color: #fff;
+	}
+
+	.navigate__menu a:hover {
+		background-color: inherit;
+	}
+
+	.navigate__menu-item:hover {
+		background-color: #990100;
+	}
+
+	.navigate__menu-item {
+		padding: 5px 0px;
+		margin: 0 120px;
+	}
+
+	.navigate__menu a {
+		margin: 0;
+		padding: 0;
+	}
+
+  .brand__title {
+  	margin: 40px 0 20px 0;
+  }
+	
+	.advantages__title {
+  	margin: 40px 0 20px 0;
+  }
+
+  .advantages__item-hand h3::after {
+		display: none;
+	}
+
+	.advantages__item-screwdriver h3::after {
+		display: none;
+	}
+
+	.advantages__item-shield h3::after {
+		display: none;
+	}
+
+	.advantages__item-speedometer h3::after {
+		display: none;
+	}
+	
+	.advantages__item-shield::after {
+		content: '';
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		border-bottom: 1px solid #990100;
+		width: 183px;
+	}
+
+	.advantages__item-speedometer::after {
+		content: '';
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		border-bottom: 1px solid #990100;
+		width: 183px;
+	}
+
+	.advantages {
+		padding-bottom: 0;
+	}
+
+	.about, .warranty {
+		text-align: justify;
+		padding: 40px 0;
+	}
+
+	.about img {
+		width: 100%;
+	}
+
+	.about__description {
+		padding-top: 20px;
+		margin-left: 0;
+	}
+	
+	.warranty {
+		padding-bottom: 80px;
+	}
+
+	.warranty__batton {
+		position: relative;
+	}
+
+	.cor__background-form {
+		background: url(../img/bg-cost-of-repairs.jpg) no-repeat center top;
+		height: 512px;
+	}
+
+	.cor__form {
+		text-align: right;
+	}
+
+	.cor__title {
+		margin: 20px 0;
+		font-size: 22px;
+	}
+
+	.cor__form-select {
+		width: 300px;
+	}
+
+	.cor__item {
+		display: block;
+		width: 300px;
+	}
+
+	.form-fill {
+		display: block;
+		width: 300px;
+	}
+
+	.form-fill input {
+		width: 300px;
+	}
+
+	.cor__item-auto {
+    margin: 0;
+	}
+
+	.form-fill__phone {
+    margin: 0;
+	}
+
+	.cor__form select {
+		margin-bottom: 10px;
+	} 
+
+	.cor__form input {
+		margin-bottom: 10px;
+	}
+
+	.cor__form-batton {
+		position: absolute;
+		top: 40%;
+		right: 2%;
+	}
+
+	.partnership__background {
+		padding: 60px 0;
+	}
+
+	.partnership__title {
+    font-size: 25px;
+	}
+
+	.partnership__title span {
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+
+	.contact__title {
+		margin: 30px 0;
+	}
+
+	.send__title {
+		margin: 30px 0;
+	}
+
+	.contact__form button {
+    margin: 15px 0 40px 0;
+  }
+
+ 	.product-by {
+ 		color: #6d6d6d;
+ 		border-top: 1px solid #6d6d6d;
+ 		text-align: center;
+	}
+}
+
+/*media --- media --- media --- media --- media --- media --- media */
+@media only screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	
+	.search {
+    width: 200px;
+  }
+
+  .head__logo {
+  	width: 218px;
+  }
+
+  .search__icon {
+		padding-top: 8px;
+	}
+	
+	.search__txt {
+		padding-top: 12px;
+	}
+	
+	.head__phone {
+		text-align: left;
+	}
+
+	.search {
+		height: 48px;
+		margin-top: 10px;
+    width: 100%;
+  }
+
+  .head__phone-number {
+		background: url(../img/telephone.png) no-repeat left 7px;
+		padding-left: 32px;
+	}
+
+	.background__slider {
+		background: url(../img/header-img.jpg) no-repeat center -39px / cover;
+		z-index: 3;
+		margin: 0;
+		padding: 0;
+		position: relative;
+	}
+
+	.slick-slider__stock {
+		margin-top: 60px;
+	}
+	
+	.slick-slider {
+		width: 85%;
+		height: 300px;
+	}
+
+	.slick-slider__stock-txt {
+		padding: 10px 20px 110px;
+		font-size: 16px;
+	}
+
+	.slick-next, .slick-prev {
+		top: 45%;
+		width: 23px;
+		height: 23px;
+		margin: 0;
+		font-size: 15px;
+  }
+
+	.background__slider a {
+    text-align: center;
+    width: 136px;
+    font-size: 14px;
+    padding: 12px 0;
+}
+
+	.background__slider a:hover {
+		font-size: 14px;
+	}
+
+	.navigate__bars {
+		border-radius: 2px;
+		position: absolute;
+		top: 20;
+		left: 110;
+		overflow: hidden;
+		z-index: 101;
+	}
+
+	.background__slider {
+		padding: 25px 0;
+		z-index: 3;
+	}
+
+	.header__menu {
+		background-color: rgba(0,0,0,0.8);
+	}
+
+	.navigate__menu-item:hover {
+		background-color: #990100;
+	}
+
+	.navigate__menu-item {
+		padding: 5px 0px;
+		margin: 0px;
+	}
+
+	.navigate__menu {
+		margin-top: 40px;
+	}
+
+	.navigate__menu a {
+		margin: 0;
+		padding: 0;
+	}
+
+	.brand__title {
+  	margin: 30px 0 20px 0;
+  	font-size: 30px;
+  }
+	
+	.advantages__title {
+  	margin: 30px 0 20px 0;
+  	font-size: 30px;
+  }
+
+  .advantages__item {
+    display: inline-block;
+    margin: 10px 0px;
+    width: 220px;
+  }
+
+  .advantages__item-shield::after {
+		content: '';
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		border-bottom: 1px solid #990100;
+		width: 183px;
+	}
+
+  .advantages__item-speedometer::after {
+		content: '';
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		border-bottom: 1px solid #990100;
+		width: 183px;
+	}
+
+	.advantages__item-speedometer h3::after {
+		display: none;
+	}
+
+	.advantages__item-shield h3::after {
+		display: none;
+	}
+
+	.advantages__item-hand h3::after {
+		display: none;
+	}
+
+	.advantages__item-screwdriver h3::after {
+		display: none;
+	}
+
+  .about {
+  	padding-bottom: 35px;
+  }
+  .about img {
+  	width: 100%
+  }
+
+	.about__description {
+		padding-top: 20px;
+		margin-left: 0;
+		text-align: left;
+	}
+
+	.about__txt {
+		font-size: 17px;
+	}
+
+	.about__title {
+		font-size: 30px;
+	}
+
+	.warranty__title {
+		font-size: 30px;
+	}
+
+	.warranty__txt {
+		text-align: left;
+		font-size: 17px;
+	}
+
+	.cor__background-form {
+		background: url(../img/bg-cost-of-repairs.jpg) no-repeat center top / cover;
+		height: 652px;
+	}
+
+	.cor__title {
+		padding: 20px 0;
+		margin: 0;
+		font-size: 22px;
+	}
+
+	.cor__form-select {
+		width: 100%;
+	}
+
+	.cor__item {
+		display: block;
+		width: 100%;
+	}
+
+	.form-fill {
+		display: block;
+		width: 100%;
+	}
+
+	.form-fill input {
+		width: 100%;
+	}
+
+	.cor__item-auto {
+    margin: 0;
+	}
+
+	.form-fill__phone {
+    margin: 0;
+	}
+
+	.cor__form select {
+		margin-bottom: 10px;
+	} 
+
+	.cor__form input {
+		margin-bottom: 10px;
+	}
+
+	.cor__form-batton {
+		margin: 20px 0 50px 0 !important;
+		position: relative;
+	}
+
+	.partnership__title {
+    font-size: 26px;
+	}
+	.partnership__title span {
+    font-size: 23px;
+	}
+
+	.contact__form-input {
+    width:100%;
+    font-size: 14px;
+	}
+
+	.contact__form-text {
+	  width: 100%;
+	  font-size: 14px;
+	}
+	.contact__form button {
+    width: 242px;
+    margin: 20px 0 50px 0;
+	}
+
+	.f-contact {
+		margin-bottom: 25px;
+	}
+
+	.f-contact img {
+		width: 242px;
+	}
+
+	.product-by {
+	 	display: block;
+	 	width: 100%;
+	 	margin-top: 10px;
+ 		color: #6d6d6d;
+ 		border-top: 1px solid #6d6d6d;
+ 		text-align: center;
+	}
+}
+
+/*media --- media --- media --- media --- media --- media --- media */
+@media only  screen and (min-width: 501px) and (max-width: 576px) {
+	
+	.slick-slider__stock-txt {
+		padding: 10px 20px 80px;
+		font-size: 20px;
+	}
+
+}
+
+/*media --- media --- media --- media --- media --- media --- media */
+@media only  screen and (min-width: 545px) and (max-width: 576px) {
+	.advantages__item {
+		width: 280px;
+}
+
+}

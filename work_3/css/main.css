@@ -1,0 +1,1019 @@
+body {
+	font-family: 'Museo Sans Cyrl 300', sans-serif;
+	color: #080000;
+	background: rgba(237,215,180,1);
+	background: -moz-linear-gradient(top, rgba(237,215,180,1) 0%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 64%, rgba(237,215,180,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,215,180,1)), color-stop(39%, rgba(255,255,255,1)), color-stop(64%, rgba(255,255,255,1)), color-stop(100%, rgba(237,215,180,1)));
+	background: -webkit-linear-gradient(top, rgba(237,215,180,1) 0%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 64%, rgba(237,215,180,1) 100%);
+	background: -o-linear-gradient(top, rgba(237,215,180,1) 0%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 64%, rgba(237,215,180,1) 100%);
+	background: -ms-linear-gradient(top, rgba(237,215,180,1) 0%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 64%, rgba(237,215,180,1) 100%);
+	background: linear-gradient(to bottom, rgba(237,215,180,1) 0%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 64%, rgba(237,215,180,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edd7b4', endColorstr='#edd7b4', GradientType=0 );
+}
+
+ul, li, p {
+	display: block;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+div, section, footer, button {
+	box-sizing: border-box;
+}
+
+.bold {
+	font-weight: 700;
+ }
+
+.upper {
+	text-transform: uppercase;
+}
+
+.batton {
+	border: 0;
+}
+
+.d-none {
+	display: none;
+}
+
+.d-block {
+	display: block;
+}
+
+.rub {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.range__product-border .rub {
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+/* -------header-------- */
+
+header {
+	text-align: center;
+	
+}
+
+.fixed-bg {
+	padding-top: 26px;
+	margin: 0;
+	width: 100%;
+	height: 120px;
+	position: fixed;
+	background-color:  rgba(237,215,180,0.9);
+	box-shadow: 0 0px 25px 15px   rgba(237,215,180,0.9);
+	z-index: 3000;
+}
+
+.navigate	{
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+	font-size: 18px;
+}
+
+.navigate__bars {
+	margin-top: 8px;
+	background: none;
+	border: none;
+	font-size: 30px;
+	outline: 0 !important;
+}
+
+.navigate__menu {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+.navigate__item {
+	padding: 0 7px;
+}
+
+.navigate__item a {
+	text-decoration: none;
+	padding-bottom: 20px;
+	color: #080000;
+}
+
+.navigate__item .active {
+  color: #fff;
+}
+
+.navigate__item a:hover {
+	color: #4e8347;
+}
+
+.navigate__item a:active {
+	border-bottom: 2px solid #4e8347;
+}
+
+.navigate__item a:focus {
+	border-bottom: 2px solid #4e8347;
+	color: #4e8347;
+}
+
+.head__contact-social {
+	text-align: center;
+}
+
+.head__contact-social a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #080000;
+	margin-right: 10px;
+}
+
+.head__contact-whatsapp a {
+	color: #289b1c;
+}
+
+.head__contact-viber a {
+	color: #854896;
+}
+
+.head__contact-telegram a {
+	color: #2eafe9;
+}
+
+.head__contact-tel {
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+	font-size: 18px;
+}
+
+.head__contact-tel a {
+	color: #080000;
+	text-decoration: none;
+}
+
+.head__btn {
+	margin-top: 18px;
+}
+
+.head__btn a {
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+	color: #080000;
+	font-size: 15px;
+	padding: 18px 15px;
+	border-radius: 100px;
+	background-color: #4e8347;
+	text-decoration: none;
+
+}
+
+.head__btn a:hover {
+	border: 1px solid #4e8347;
+	background: #d2d2d2;
+	color: #4e8347;
+	padding: 17px 14px;
+}
+
+.head__logo {
+	padding-top: 170px;
+	margin: 0 auto;
+	width: 800px;
+}
+
+.head__logo p {
+	font-size: 20px;
+	padding: 40px 0;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+}
+
+.head__logo span {
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+
+.about {
+	padding-bottom: 45px;
+}
+
+.about__text {
+	font-size: 15px;
+}
+
+.about__p-juice {
+	background: url(../img/juce.png) no-repeat right center;
+	padding: 70px 50px 70px 0;
+}
+
+.about__p-povar {
+	background: url(../img/kolpak.png) no-repeat right 5px center;
+	padding: 60px 50px 60px 0;
+}
+
+.about__p-sandwichbar {
+	background: url(../img/sandwichbar_min.png) no-repeat left center;
+	padding: 0 0 0 50px;
+	margin-top: 28px;
+}
+
+.about__p-eco {
+	background: url(../img/vegan.png) no-repeat left center;
+	padding-left: 50px;
+}
+
+.about__p-eat {
+	margin-top: 28px;
+	padding: 0 0 0 50px;
+	background: url(../img/eat.png) no-repeat left center;
+}
+
+.about__p-sun {
+	padding-left: 50px;
+	background: url(../img/sun.png) no-repeat left center;
+}
+
+.advantages {
+	padding-top: 45px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.advantages h1 {
+	padding-bottom: 50px;
+}
+
+.advantages__item {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+} 
+
+.advantages__circl {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	width: 350px;
+}
+
+.advantages__img-solid  {
+	padding: 10px;
+	border: 2px solid #4e8347;
+	border-radius: 50%;
+	width: 170px;
+	height: 170px;
+	margin: 0 auto;
+}
+
+.shield {
+	background: url(../img/shield.png) no-repeat center center;
+}
+
+.hours {
+	background: url(../img/24h.png) no-repeat center center;
+}
+
+.coop {
+	background: url(../img/coop.png) no-repeat center center;
+}
+
+.ecotech {
+	background: url(../img/ecotech.png) no-repeat center center;
+}
+
+.card {
+	background: url(../img/bank-card.png) no-repeat center center;
+}
+
+.sandwich {
+	background: url(../img/sandwich.png) no-repeat center center;
+}
+
+.advantages__img-dashed {
+	border: 2px dashed #4e8347;
+	border-radius: 50%;
+	width: 146px;
+	height: 146px;
+}
+
+.advantages__circl-p {
+	font-size: 16px;
+	margin-top: 25px;
+}
+
+.range {
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 48px;
+}
+
+.range h1 {
+	margin-bottom: 45px;
+}
+
+.range__slider {
+	position: relative;
+	border: 1px solid #4e8347;
+	border-radius: 30px;
+	width: 100%;
+	padding: 60px 30px;
+}
+
+.range__item {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+
+
+.range__navigate {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 40px;
+}
+
+.range__navigate a {
+	text-decoration: none;
+	color: #080000;
+	padding-bottom: 5px;
+}
+
+.range__navigate a:hover {
+	color: #4e8347;
+	padding-bottom: 3px;
+}
+
+.range__navigate a:active {
+	border-bottom: 2px solid #4e8347;
+	padding-bottom: 3px;
+}
+
+.range__navigate a:focus {
+	border-bottom: 2px solid #4e8347;
+	padding-bottom: 3px;
+	color: #4e8347;
+}
+
+.range__product a {
+	text-decoration: none;
+	color: #080000;
+}
+
+.range__product {
+	border: 1px solid #4e8347;
+	width: 319px;
+	margin-bottom: 30px;
+	height: 480px;
+}
+
+.range__product:hover {
+	position: relative;
+	z-index: 10;
+}
+
+.prod-info {
+	color: #fff;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	padding:20px 20px;
+	display:none;
+	height: 478px;
+}
+
+.range__product:hover .prod-info {
+	display: block;
+	box-shadow: inset 0 1000px 0px 0px rgba(87,46,29,0.9);
+}
+
+.prod-info h3 {
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+.popup__cart-text {
+	text-align: justify;
+	font-size: 13px;
+}
+
+.brand span, .compound span,  
+.energy-value span, .weight span, .shelf span {
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+
+.retail {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	margin-left: -143px;
+	border: 2px solid #fff;
+	padding: 15px 10px;
+}
+
+.retail__title {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+
+.retail__title span {
+	font-size: 12px;
+	text-decoration: line-through;
+}
+
+.retail__title {
+	width: 260px;
+}
+
+.retail__cost {
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+	font-size: 14px;
+}
+
+.retail__opt {
+	font-size: 11px;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Museo Sans Cyrl 300', sans-serif;
+}
+
+.retail__eco {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+	text-decoration: underline;
+}
+	
+
+.sandwich-card, .sirnik-card, .roll-card, 
+.salat-card, .drink-card, .sneki-card, 
+.tort-card, .other-card {
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 150px;
+}
+
+.card-img {
+	margin: 0px auto;
+	text-align: center;
+	width:245px;
+}
+
+.range__product img {
+	width: 100%;
+}
+
+.card-text {
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	font-weight: 700;
+}
+
+.card-text p {
+	text-transform: uppercase;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+	padding-bottom: 20px;
+}
+
+.card-text span {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.multiple-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.partnership {
+	text-align: center;
+	padding-top: 48px;
+}
+
+.partnership h1 {
+	padding-bottom: 20px;
+}
+
+.partnership__howISway {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.partnership__way {
+	margin-bottom: 55px;
+}
+
+.partnership__text-1 span, .partnership__text-2 span, 
+.partnership__text-3 span, .partnership__text-4 span {
+	font-size: 13px;
+	color: #fff;
+	border-radius: 50%;
+	background-color: #4e8347;
+	padding: 4px 7.5px;
+	position: relative;
+}
+
+.partnership__text-1, .partnership__text-2 {
+	padding: 20px 0;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+}
+
+.partnership__text-3, .partnership__text-4 {
+	text-align: left;
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+}
+
+.partnership__text-1 span {
+	margin: 0 122px 0 70px;
+}
+
+.partnership__text-2 span {
+	margin: 0 102px 0 80px;
+}
+
+.partnership__text-3 span {
+	margin: 0 80px 0 102px;
+}
+
+.partnership__text-4 span {
+	margin: 0 70px 0 182px;
+}
+
+.partnership__way-1 {
+	background: url(../img/total.png) no-repeat left center;
+}
+
+.partnership__way-2 {
+	background: url(../img/coop.png) no-repeat left center;
+}
+
+.partnership__way-3 {
+	background: url(../img/heart.png) no-repeat right center;
+}
+
+.partnership__way-4 {
+	background: url(../img/sandwichbar-min2.png) no-repeat right center;
+}
+
+.partnership__text-3 span::before {
+	position: absolute;
+	top: 10px;
+	right: 22px;
+	width: 100px; 
+	content: '';
+	border-top: 2px dotted #4e8347;
+}
+
+.partnership__text-4 span::before {
+	position: absolute;
+	top: 10px;
+	right: 22px;
+	width: 180px; 
+	content: '';
+	border-top: 2px dotted #4e8347;
+}
+
+.partnership__text-1 span::after {
+	position: absolute;
+	top: 10px;
+	left: 22px;
+	width: 120px; 
+	content: '';
+	border-top: 2px dotted #4e8347;
+}
+
+.partnership__text-2 span::after {
+	position: absolute;
+	top: 10px;
+	left: 22px;
+	width: 100px; 
+	content: '';
+	border-top: 2px dotted #4e8347;
+}
+
+.contact {
+	padding: 45px 0 50px 0;
+	text-align: center;
+} 
+
+.contact__card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contact__batton {
+	margin: 20px 55px 0 55px;
+	color: #080000;
+	font-size: 15px;
+	padding: 20px 0px;
+	border-radius: 100px;
+	background-color: #4e8347;
+	text-transform: uppercase;
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+	outline: 0 !important;
+}
+
+.contact__batton:hover {
+	background: #d2d2d2;
+	border: 1px solid #4e8347;
+	padding: 19px 0px;
+	color: #4e8347;
+}
+
+.contact h1 {
+	padding-bottom: 48px;
+}
+
+.contact h3 {
+	width: 280px;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+	font-size: 18px;
+	color: #fffefe;
+	padding-bottom: 40px;
+	letter-spacing: 0.06em;
+}
+
+.contact form {
+	display: flex;
+	flex-direction: column;
+	background-color: #999999;
+	border-radius: 5px;
+	padding: 50px 40px;
+	margin: 0 43px;
+}
+
+.contact form input {
+	outline: 0 !important;
+	border: 0;
+	width: 100%;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 17px 20px;
+}
+
+.contact__social {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact__social a {
+	text-decoration: none;
+	color: #080000;
+	font-size: 35px;
+	margin-bottom: 130px;
+}
+
+.contact__allinfo {
+	text-align: center;
+	padding: 50px 40px;
+	margin: 0 43px;
+	border: 2px solid #4e8347;
+	border-radius: 5px;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+}
+
+.contact__allinfo h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 40px;
+	letter-spacing: 0.06em;
+}
+
+.contact__allinfo .mailto, .contact__allinfo .telto {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #080000;
+}
+
+.contact__allinfo .mailto:hover, .contact__allinfo .telto:hover {
+	color: #080000;
+	font-weight: bolder;
+}
+
+.fa-youtube {
+	color: #bb0000;
+}
+
+.fa-vk {
+	color: #45668e;
+}
+
+.fa-twitter {
+	color: #00aced;
+}
+
+.fa-facebook-f {
+	color: #3b5998;
+}
+
+.fa-odnoklassniki {
+	color: #F2720C;
+}
+
+.fa-instagram {
+	color: #517fa4;
+}
+
+.contact__fab  {
+	margin: 20px 9px;
+}
+
+.contact__fab:hover {
+	color: #080000;
+}
+
+
+footer {
+	padding: 54px 0 60px 0;
+	background-color: #262626;
+	color: #a8a8a8;
+	text-align: center;
+}
+
+.f__logo img {
+	width: 260px;
+}
+
+.f__tel {
+	margin-top: 8px;
+	color: #cdcdcd;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+	font-size: 18px;
+}
+
+.f__navigate {
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+	font-size: 18px;
+}
+
+.f__navigate-item {
+	line-height: 42px;
+}
+
+.f__navigate__menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.f__navigate__menu a {
+	text-decoration: none;
+	color: #a8a8a8;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Слайдер */
+
+.slick-next:hover, .slick-prev:hover {
+	color: #4e8347;
+}
+
+.slick-next, .slick-prev {
+	border: 0;
+	color: #000;
+	font-size: 20px;
+	top: 46px;
+	outline: none !important;
+	cursor: pointer;
+	background-color: #fff;
+	z-index: 20;
+	position: absolute;
+	background: none;
+}
+
+.slick-next {
+	right: -22px;
+}
+
+.slick-prev {
+	left: -22px;
+}
+
+.slick-dots li {
+	display: inline-block;
+}
+
+.slick-dots li button {
+	display: inline-block;
+  border: 0;
+  background: none;
+  width: 10px;
+  height: 12px;
+  background-color: #7f7f7f;
+  font-size: 0;
+  margin: 30px 5px 0 5px;
+  border-radius: 50%;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #080000;
+}
+
+.responsive__item {
+	padding: 0 30px;
+}
+
+.partner {
+	padding-top: 40px;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.partner h1 {
+	padding-bottom: 25px;
+}
+
+.partner img {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.Lamoda {
+	margin-top: 26px;
+}
+
+.IBM {
+	margin-top: 15px;
+}
+
+.RBC {
+	margin-top: 30px;
+}
+
+.InGosStrakh {
+	margin-top: 30px;
+}
+
+.Samsung {
+	margin-top: 26px;
+}
+
+.Deutsche {
+	margin-top: 40px;
+}
+
+.Rayfaizen {
+	margin-top: 35px;
+}
+
+.Otkrytie {
+	margin-top: 32px;
+}
+
+.Rambler {
+	margin-top: 26px;
+}
+
+.Sberbank {
+	margin-top: 32px;
+}
+
+/* ---------- */
+
+/* Форма callback */
+
+.js-form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: #999999;
+	border-radius: 5px;
+	padding: 50px 40px;
+}
+
+.js-form input {
+	outline: 0 !important;
+	border: 0;
+	width: 95%;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 17px 20px;
+}
+
+#popup {
+	left: 50%;
+	position: fixed;
+	top: 50%;
+	z-index: 4000;
+	width: 460px;
+	height: auto;
+	padding:10px 20px 20px 20px;
+	outline: none !important;
+}
+
+*html #popup  {
+	position: absolute;
+	text-align: center;
+}
+ 
+#popup h3{
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+	font-size: 18px;
+	color: #fffefe;
+	padding-bottom: 40px;
+	letter-spacing: 0.06em;
+}
+
+#overlay {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #000c;
+	left: 0px;
+	top: 0px;
+	cursor: pointer;
+}
+
+#thx {
+	width: 280px;
+	background: #fff;
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	left: 50%;
+	margin-left: -110px;
+	top: 50%;
+	padding: 30px;
+	margin-top: -20px;
+}
+
+ #popup_close {
+	display:block;
+	position: absolute;
+	height: auto;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	z-index: 2103;
+	font-size: 25px;
+}
+
+#popup_close a {
+ 	color: #fff;
+ 	padding: 2px 3px 2px 5px;
+}
+
+#popup_close a:hover {
+ 	color: #4e8347;
+}
+ 
+#fade {
+	display: none;
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .50;
+	z-index: 3001;
+}
+ 
+*html #fade {
+    position: absolute;
+}
+
+#top-menu li.active a {
+  color: #4e8347;
+}

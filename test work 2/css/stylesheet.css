@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Rockwell_bold';
+    src: url('../fonts/Rockwell-Bold.woff2') format('woff2'),
+        url('../fonts/Rockwell-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rockwell';
+    src: url('../fonts/Rockwell.woff2') format('woff2'),
+        url('../fonts/Rockwell.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri_bold';
+    src: url('../fonts/Calibri-Bold.woff2') format('woff2'),
+        url('../fonts/Calibri-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/Calibri.woff2') format('woff2'),
+        url('../fonts/Calibri.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

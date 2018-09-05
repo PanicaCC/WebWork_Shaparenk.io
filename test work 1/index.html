@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test WebStar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+	<!-- Описание --> 
+	<meta name="description" content="...">
+	<!-- Ключевые слова -->
+	<meta name="keywords" content="...">
+	<!-- favicon -->
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<!-- og-метки -->
+	<meta property="og:title" content="...">
+	<meta property="og:description" content="...">
+	<meta property="og:type" content="artical">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="...">
+	<!-- yandex Вебмастер -->
+	<meta name="yandex-verification" content="###">
+	<!-- Шрифты -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<!-- Слайдер -->
+	<link rel="stylesheet" type="text/css" href="build/css/slick.css">
+	<!-- Стили -->
+	<link rel="stylesheet" href="build/css/main.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="head">
+				<div class="menuToggle">
+					<div class="menuToggle__wrap">
+						<div class="menuToggle__humburger">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="menuToggle__home menuToggle__item">
+						<a href="#">
+							<i class="fas fa-home"></i>
+						</a>
+					</div>
+					<div class="menuToggle__search menuToggle__item">
+						<a href="#">
+							<img src="build/img/search-toggle.png" alt="search">
+						</a>
+					</div>
+					<div class="menuToggle__basket menuToggle__item">
+						<a href="#">
+							<i class="fas fa-shopping-cart"></i>
+						</a>
+					</div>
+					<div class="menuToggle__user menuToggle__item">
+						<a href="#" class="menuToggle__user-entered">
+							<i class="fas fa-check check"></i>
+						</a>
+					</div>
+					<div class="menuToggle__phone menuToggle__item">
+						<a href="#">
+							<img src="build/img/phone-toggle.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="head__top">
+					<div class="head__logo">
+						<img src="build/img/logo.png" alt="logo">
+						<p class="head__logo-descripton">Интернет-магазин «Благой арт»</p>
+					</div>
+					<div class="head__search">
+						<input type="search" placeholder="Введите название или артикул" class="head__search-in">
+						<input type="submit" class="head__search-btn search-submit" value="">
+					</div>
+					<div class="head__contact">
+						<a href="tel:+78007078139">+7 (800) 707-81-39</a>
+						<div class="head__contact-wrap">
+							<p class="head__contact-time">ПН-ПТ с 9:00 до 18:00</p>
+							<p class="head__contact-delivery">Доставка по РФ и СНГ</p>
+						</div>
+					</div>
+				</div>
+				<div class="head__navigate head__navigate-open d-none">
+					<nav class="head__menu grid-item1">
+						<ul class="head__menu-list">
+							<li class="head__menu-item catalog">
+								<span class="head__menu-icon"></span>
+								Каталог товаров
+								<i class="fas fa-angle-down dropdownArrow"></i>
+								<ul class="catalog__list">
+									<li class="catalog__item subcatalog">
+										<span class="catalog__item-sub">Свадебная бижутерия
+											<i class="fas fa-angle-right dropleftArrow"></i>
+										</span>
+										<ul class="subcatalog__list">
+											<p class="subcatalog__title">Свадебные наборы украшений</p>
+											<li class="subcatalog__item">
+												<a href="#test3">Браслеты</a>
+											</li>
+											<li class="subcatalog__item">
+												<a href="#test4">Кулоны</a>
+											</li>
+											<li class="subcatalog__item">
+												<a href="#">Зажимы и запонки</a>
+											</li>
+										</ul>
+									</li>
+									<li class="catalog__item">
+										<a href="#">Аксессуары для волос</a>
+									</li>
+									<li class="catalog__item">
+										<a href="#">Броши</a>
+									</li>
+									<li class="catalog__item subcatalog">
+										<span class="catalog__item-sub">Мужские аксессуары
+											<i class="fas fa-angle-right dropleftArrow"></i>
+										</span>
+										<ul class="subcatalog__list">
+											<p class="subcatalog__title">Мужская бижутерия</p>
+											<li class="subcatalog__item">
+												<a href="#test1">Браслеты</a>
+											</li>
+											<li class="subcatalog__item">
+												<a href="#test2">Кулоны</a>
+											</li>
+											<li class="subcatalog__item">
+												<a href="#">Зажимы и запонки</a>
+											</li>
+										</ul>
+									</li>
+									<li class="catalog__item">
+										<a href="#">Детская бижутерия</a>
+									</li>
+									<li class="catalog__item">
+										<a href="#">Демонстрационное оборудование</a>
+									</li>
+								</ul>
+							</li>
+							<li class="head__menu-item">
+								<a href="#">Условия работы</a>
+							</li>
+							<li class="head__menu-item">
+								<a href="#">Скидки</a>
+							</li>
+							<li class="head__menu-item">
+								<a href="#">Оплата и доставка</a>
+							</li>
+							<li class="head__menu-item">
+								<a href="#">Документы</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="head__consumer upper grid-item2">
+						<div class="head__consumer-basket">
+							<a href="#">
+								<i class="fas fa-shopping-cart cart"></i>
+								<span class="counterItem">10</span>
+							</a>
+							<p class="counter">
+								Товаров / 
+								<span class="counterPrice">56 789 P</span>
+							</p>
+						</div>
+						<div class="head__consumer-cabinet">
+							<i class="fas fa-check check"></i>
+							<a href="#" class="head__consumer-entered">
+								Войти
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluide">
+			<div class="slider">
+				<div class="slide slide1">
+					<img src="build/img/thumb_16050_blog_full.jpg" alt="slide 1">
+				</div>
+				<div class="slide slide2">
+					<img src="build/img/thumb_16050_blog_full.jpg" alt="slide 2">
+				</div>
+				<div class="slide slide3">
+					<img src="build/img/thumb_16050_blog_full.jpg" alt="slide 3">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  				integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  				crossorigin="anonymous"></script>
+	<script type="text/javascript" src="build/js/slick.min.js"></script>
+	<script type="text/javascript" src="build/js/main.js"></script>
+</body>
+</html>

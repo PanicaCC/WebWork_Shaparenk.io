@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Testing</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<section class="task1" id="task1">
+		<div class="container">
+			<button type="submit" onclick="showModal()" class="btn task1__btn">Click ME!</button>
+			<div class="task1__modal d-none" id="toggle">
+				<div class="wrapper">
+					<div class="task1__modal-firstBlock block">
+						First block
+					</div>
+					<div class="task1__modal-secondBlock block">
+						Second block
+					</div>
+					<a href="#" onclick="closeModal()" class="close"></a>
+					<input type="text" class="task1__modal-input" onkeypress>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="task2" id="task2">
+		<div class="container">
+			<form id="task2__form">
+				<input type="radio" name="gender" value="Ukraine" onclick="radioClick(this);" checked> Україна<br>
+				<input type="radio" name="gender" value="Germany" onclick="radioClick(this);">Germany<br>
+				<input type="radio" name="gender" value="Poland" onclick="radioClick(this);"> Polska
+			</form>
+			<div class="task2__helloGender" id="helloGender"></div>
+		</div>
+	</section>
+	<section class="task3" id="task3">
+		<div class="container">
+			<script>
+				// создаем архив 
+				var listBrand = [];
+				
+				var itemBrand = [];
+				itemBrand['name'] = 'samsung';
+				itemBrand['price'] = 250;
+				listBrand.push(itemBrand);
+
+				var itemBrand = [];
+				itemBrand['name'] = 'apple';
+				itemBrand['price'] = 300;
+				listBrand.push(itemBrand);
+				
+				var itemBrand = [];
+				itemBrand['name'] = 'xiaomi';
+				itemBrand['price'] = 200;
+				listBrand.push(itemBrand);
+
+				// проверка архива 
+				console.log(listBrand); 
+
+				// выводим масив
+				function showArray() {
+					var result;
+					for (var i in listBrand) {
+						document.write('Товар торговой марки: ' + listBrand[i]['name'] + " стоит " + listBrand[i]['price'] + "$ " + "<br>");
+					}
+					document.write('<br>');
+				}
+				showArray();
+
+				// выводим сумму
+				function сountPrice() {
+					var summ = 0;
+					for (var i in listBrand) {
+					summ += listBrand[i]['price'];
+					}
+
+					document.write('Сумма всех товаров равна: ' + summ + "$");
+				}
+				сountPrice();
+
+				// выводим apple
+				function showItem(item) {
+					for (var i in listBrand) {
+						if (listBrand[i]['name'] == item) {
+							document.write('<br>');
+							document.write(listBrand[i]['name'] + ' со значением ' + listBrand[i]['price']);
+						}
+					}
+				}
+				showItem('apple');
+			</script>
+		</div>
+	</section>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

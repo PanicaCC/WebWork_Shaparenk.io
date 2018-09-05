@@ -1,0 +1,295 @@
+/* ----- media ----- */
+@media screen and (max-width: 960px) {
+	.container {
+		width:  90%;
+	}
+/* Header*/
+	.head {
+		margin-left: 0px;
+	}
+	.head__menu-item:nth-child(1) {
+		padding-left: 10px;
+		padding-right: 25px;
+	}
+
+	.head__menu-item:nth-child(3) {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+/* Slide*/
+	.slider {
+		margin-left: 0;
+	}
+
+	.slider__content img {
+		position: absolute;
+		left: 4px;
+		top: 4px;
+		height: 100%;
+		width: 96%;
+	}
+
+	#cards .wrapper {
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+	  margin-left: 0;
+	}
+	/* Cards */
+	
+	.card {
+		margin-bottom: 8px;
+		width: 280px;
+	}
+
+	.card img {
+		width: 260px;
+		height: 169px;
+	}
+	
+	/* Welcome */
+	.welcome__about {
+		padding-bottom: 5px;
+	}
+
+	#welcome .wrapper {
+		margin-left: 0;
+	}
+
+	/* Footer */
+	#footer .wrapper {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.card {
+		margin-bottom: 8px;
+		width: 400px;
+	}
+
+	.card img {
+		width: 380px;
+		height: 190px;
+	}
+
+	.cards__txt {
+		margin-top: 205px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.card {
+		display: grid;
+		grid-template-columns: 300px auto;
+		width: 100%;
+		height: 200px;
+	}
+
+	.card img {
+		position: relative;
+		width: 90%;
+		top: 0;
+		height: 180px;
+	}
+
+	.cards__txt {
+		font-size: 14px;
+		margin-top: 10px;
+		margin-right: 8px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.card {
+		display: grid;
+		grid-template-columns: 300px auto;
+		width: 100%;
+		height: 200px;
+	}
+
+	.card img {
+		position: relative;
+		width: 90%;
+		top: 0;
+		height: 180px;
+	}
+
+	.cards__txt {
+		font-size: 14px;
+		margin-top: 10px;
+		margin-right: 8px;
+	}
+}
+
+/* ----- media ----- */
+@media screen and (max-width: 768px) {
+	.container {
+		width:  90%;
+	}
+	/* Header */
+	.head__menu-item:nth-child(1) {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.head {
+		display: grid;
+		grid-template-columns: auto 220px;
+	}
+
+	.head__menu-item:nth-child(3) {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.search {
+		position: relative;
+		width: 100%;
+		margin-left: -10px;
+	}
+
+/* Slider */
+	.slider__content img {
+		left: 0px;
+		top: 4px;
+		height: 70%;
+	}
+
+	a.prev,a.next {
+		margin-top:-100px;
+	}
+
+	.slider {
+		height: 270px;
+	}
+
+/* Cards */
+	.cards__txt {
+		font-size: 12px;
+}
+
+
+/* ----- media ----- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	.container {
+		width:  90%;
+	}
+
+	/* Header */
+	.head__menu-list {
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	    text-align: center;
+	    padding: 0;
+	}
+	
+	.head__menu-item:nth-child(1) {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.head__menu-item:nth-child(3) {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.head {
+		padding: 5px;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.search {
+		width: 100%;
+		margin: 0;
+	}
+/* Slider */
+
+	.slider__content img {
+		width: 100%;
+		height: 42%;
+		top: 0;
+		
+	}
+
+	a.prev,a.next {
+		right: 10px;
+		margin-top:-150px;
+	}
+
+	.slider {
+		padding: 0;
+		height: 146px;
+	}
+
+/* Cards */
+	.card {
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
+
+	.card img {
+		position: relative;
+		width: 100%;
+		top: 0;
+		left: 0;
+		height: 80px;
+	}
+
+	.cards__txt {
+		font-size: 14px;
+		margin-top: 10px;
+		margin-right: 0px;
+	}
+
+/* Welcome */
+	#welcome .wrapper {
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.welcome__image {
+		display: flex;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+	}
+
+	.welcome__image img {
+		width: 45%;
+	}
+
+	.welcome__image .lessImage {
+		width: 45%;
+	}
+
+	.welcome__title  {
+		padding: 10px;
+	}
+
+	.welcome__text {
+		padding: 0 10px;
+		margin-bottom: 15px;
+	}
+
+/* Footer */
+
+	#footer .wrapper {
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		    padding: 5px;
+		    margin: 0;
+	}
+}
